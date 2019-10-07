@@ -11,5 +11,5 @@ def map_to_no_change(array)
 end
 
 def map_to_double(array)
-  array.length.times
+  array*2
 end
