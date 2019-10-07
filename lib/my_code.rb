@@ -18,4 +18,5 @@ def map_to_square(array)
   array.length.times { |index|
     array[index] *= array[index]    
   }
+  array
 end
