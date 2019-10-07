@@ -11,4 +11,5 @@ def map_to_no_change(array)
 end
 
 def map_to_double(array)
-  array.map
+  array.map{|i| i*2}
+end
