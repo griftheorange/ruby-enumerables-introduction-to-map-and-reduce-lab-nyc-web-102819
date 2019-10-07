@@ -13,3 +13,4 @@ end
 def map_to_double(array)
   array.map{|i| i*2}
 end
+
