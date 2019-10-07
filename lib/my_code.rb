@@ -26,5 +26,5 @@ def reduce_to_total(array, start=0)
   array.length.times { |index|
     total += array[index]
   }
-  return total
+  total
 end
