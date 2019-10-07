@@ -23,8 +23,9 @@ end
 
 def reduce_to_total(array, start=0)
   total = 0
-  array.length.times { |index|
-    total += array[index]
+  array.length.times {
+    total += array[start]
+    start += 1
   }
   total
 end
